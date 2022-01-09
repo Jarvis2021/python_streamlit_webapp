@@ -5,7 +5,7 @@ import pydeck as pdk
 
 DATA_URL = ('/Users/Pramod/Github/python_streamlit_webapp/Project/Motor_Vehicle_Collisions_Crashes.csv')
 
-st.title("Motor Vehicle Collisions in New York City!!")
+st.title("Motor Vehicle Collisions in New York City")
 st.markdown("This application is a streamlit dashboard that can be used to analyze motor vehicle collision in NYC 🗽💥🏎️")
 
 @st.cache(persist=True) # Cache mechanism doesn't make call back again to read from the original file
